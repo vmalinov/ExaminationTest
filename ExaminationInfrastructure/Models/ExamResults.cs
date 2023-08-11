@@ -17,7 +17,7 @@ namespace ExaminationInfrastructure
                 throw new Exception($"Count of exams for input string ({input.Count}) is not equal to count of exams ({subjects.Count})");
             }
             int i = 0;
-            foreach (var sub in subjects)                           //we have exams dictionary same with the input order
+            foreach (var sub in subjects)                           //we have exams same with the input order
             {
                 this.Results.Add(new SubjectResult() { 
                     Exam = new Exam(sub.Name, sub.Division),                   
