@@ -1,0 +1,38 @@
+{
+  "Subjects": [
+    {
+      "Name": "English",
+      "Division": "NoType"
+    },
+    {
+      "Name": "Math",
+      "Division": "Science"
+    },
+    {
+      "Name": "Science",
+      "Division": "Science"
+    },
+    {
+      "Name": "Japanese",
+      "Division": "Humanities"
+    },
+    {
+      "Name": "GeographyHistory",
+      "Division": "Humanities"
+    }
+  ],
+  "Divisions": [
+    {
+      "Name": "Science",
+      "MinimumScore": 160,
+      "InputValue": "s"
+    },
+    {
+      "Name": "Humanities",
+      "MinimumScore": 160,
+      "InputValue": "l"
+    }
+  ],
+  "MinimalTotalScore": 350
+
+}
